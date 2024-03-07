@@ -4,8 +4,8 @@
 # while autoremove removes any packages that were automatically installed 
 # to satisfy dependencies but are no longer required.
 
-sudo apt-get purge haproxy
-sudo apt-get autoremove
+sudo apt-get purge -y haproxy
+sudo apt-get  -y autoremove
 
 # if you also want to delete any configuration files or directories 
 # associated with HAProxy, you can manually remove them
